@@ -41,7 +41,7 @@ header .logo {
 }
 
 header .logo .dot {
-    background-color: aqua;
+    background-color: blue;
     width: 10px;
     height: 10px;
     display: inline-block;
@@ -136,5 +136,99 @@ section.hero img {
     line-height: 24px;
     text-align: center;
     border: none;
+    text-transform: uppercase;
    
 }
+
+section.best-sellers{
+    padding-top: 80px;
+}
+
+section.best-sellers h2{
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    
+}
+
+section.best-sellers hr{
+    border:none;
+    border-top: 5px solid #67f11d;
+    width: 66px;
+
+}
+
+section.best-sellers .producs-slide{
+    margin-top: 76px;
+
+}
+
+section.best-sellers .conteiner {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+section.best-sellers .producs-slide .product {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 33%;
+    text-align: center;
+    margin:0 8px;
+    padding: 40px;
+}
+
+section.best-sellers .producs-slide .product .produtoinfo{
+    margin-top: 50px;
+
+}
+
+section.best-sellers .producs-slide .product .produtoinfo .categoria{
+    color: blue;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+section.best-sellers .producs-slide .product .produtoinfo .titulo{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 6px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+section.best-sellers .producs-slide .product .produtoinfo .preco{
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+section.best-sellers .producs-slide .product .produtoinfo button{
+    height: 50px;
+    width: 219.5px;
+    border: 1px solid #000;
+    border-radius: 220px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+}
+
+
+
+
+
+

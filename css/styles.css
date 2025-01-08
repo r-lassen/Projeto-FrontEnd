@@ -227,6 +227,66 @@ section.best-sellers .producs-slide .product .produtoinfo button{
     line-height: 24px;
 }
 
+section.newsletter{
+    background-color: #ddd;
+    max-width: 955px;
+    text-align: center;
+    padding: 72px 0;
+    margin: 80px auto;
+}
+
+section.newsletter h3{
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height:42px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+section.newsletter p{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height:42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+section.newsletter form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+section.newsletter form input{
+    height: 50px;
+    width: 326px;
+    max-width: 80%;
+    border-radius: 60px 0 0 60px;
+    box-sizing: border-box;
+    border: 1px solid #3e3e3e;
+    color: #3e3e3e;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    padding-left: 22px;
+}
+
+section.newsletter form button{
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    box-sizing: border-box;
+    border-radius: 0 60px 60px 0;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;    
+    text-transform: uppercase;
+}
 
 
 

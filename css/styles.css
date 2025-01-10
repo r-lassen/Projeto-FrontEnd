@@ -534,15 +534,127 @@ footer .copyright-text{
 }
 
 /* ***************** Designer tablets *************************  */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 900px) {
     .container {
         max-width: 92%;
     }
 
     body {
-        
         background-color: yellow;
     }
+
+    header .logo {
+        font-size: 24px;
+    }
+    
+    header nav ul li {
+        display: none;
+    }
+    
+    header nav ul li.menu-icon {
+        display: inline-block;
+    }
+    
+    .hero-content h1 {
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 46px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 24px;
+    }
+    
+    .hero-content button {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        width: 196px;   
+    }
+    
+    section.best-sellers {
+        padding-top: 50px;
+    }
+    
+    section.best-sellers h2 {
+        font-size: 28px;
+        letter-spacing: 0.7px;
+        line-height: 38px;
+        margin: 0 0 12px 0;
+    }
+    
+    section.best-sellers .producs-slide {
+        margin-top: 48px;
+    }
+    
+    section.best-sellers .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    section.best-sellers .producs-slide .product {
+        min-width: 220px; 
+        margin: 17px 8px;
+    }
+    
+    section.best-sellers .producs-slide .product .produtoinfo .categoria {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    
+    section.best-sellers .producs-slide .product .produtoinfo .titulo {
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
+    
+    section.best-sellers .producs-slide .product .produtoinfo .preco {
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 30px;
+    }
+    
+    section.best-sellers .producs-slide .product .produtoinfo button {
+        height: 36px;
+        width: 193px;
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+    
+    section.newsletter {
+        width: 100%;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 50px auto;
+    }
+    
+    section.newsletter h3 {
+        font-size: 22px;
+        letter-spacing: 0.55px;
+        line-height: 42px;
+    }
+    
+    section.newsletter p {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 42px;
+    }
+    
+    footer .botton {
+        padding: 50px 0;
+    }
+    
+    footer .botton .container {
+        max-width: 90%;
+    }
+
+
 }
 
 /* ***************** Designer Celulars *************************  */

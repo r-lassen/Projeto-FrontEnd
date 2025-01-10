@@ -12,141 +12,157 @@
 </head>
 
 <body>
+        
     <header>
-        <div class="conteiner">
-            <section class="logo"><strong>Tech</strong><span class="dot"></span><span>Shop</span></section>
+        <div class="container">
+            <section class="logo">
+                <a href="index.html">
+                    <strong>Your</strong>
+                    <span class="blue-dot"></span> 
+                    <span>Logo</span>
+                </a>
+            </section>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Promoções</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li class="menu"><img src="imagens/menu_icon.png" alt=""></li>
-                    
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="index.html#best-sellers-section">Best Sellers</a></li>
+                    <li><a href="index.html#newsletter-section">Newsletter</a></li>
+                    <li class="menu-icon"><img src="imagens/menu_icon.png" alt="menu icon"></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <section class="hero">
-        <img src="imagens/Hero_image.jpg" alt="Hero image-smart watch">
+        <picture>
+            <source media="(max-width: 576px)" srcset="imagens/Hero_Mobile.jpg">
+            <source media="(max-width: 960px)" srcset="imagens/Hero_Tablet.jpg">
+            <source media="(max-width: 1440px)" srcset="imagens/Hero_Desktop.jpg">
+            <img src="imagens/Hero_Large_Desktop.jpg" alt="hero image - smart watch">
+        </picture>
+       
         <div class="hero-content">
             <div class="container">
-                <h1>Experimente o novo relógio digital - smart watch</h1>
-
-                <p>Os relógios inteligentes são projetados para ajudar as pessoas a viver suas vidas mais saudáveis. Todos os resultados de medições são apenas para referência. </p>
-                <button>Ver todos os relógios</button>
+                <h1>Explore our new smart watch series</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    In pellentesque, nisi id viverra aliquam, libero ipsum vehicula.
+                </p>
+                <button>See all watches</button>
             </div>
         </div>
-
     </section>
 
-    <section class="best-sellers">
-        <h2>Mais vendidos</h2>
+    <section class="best-sellers" id="best-sellers-section">
+        <h2>Best sellers</h2>
         <hr>
-        <div class="producs-slide">
-            <div class="conteiner">
-                <div class="product">
-                    <div class="produtoimg">
-                        <img src="imagens/Watch_case.jpg" alt="">
+        <div class="product-slider">
+            <div class="container">
+
+                <div class="product new">
+                    <div class="product-picture">
+                        <img src="imagens/Watch_case.jpg" alt="product: Penom Case">
                     </div>
-                    <div class="produtoinfo">
-                        <h5 class="categoria"> Smart watches, Apple</h5>
-                        <h4 class="titulo">Relógio apple</h4>
-                        <h3 class="preco">R$ 200,00</h3>
-                        <button> Add ao carrinho</button>
+                    <div class="product-info">
+                        <h5 class="categories">Smart Watches, Cases, Apple</h5>
+                        <h4 class="title">Penom Case for Apple Watch</h4>
+                        <h3 class="price">
+                            <span>US$ 6.99</span>
+                        </h3>
+                        <button>Add to bag</button>
+                    </div>
+                </div>
+
+                <div class="product new">
+                    <div class="product-picture">
+                        <img src="imagens/Headphone.jpg" alt="product: Noise Cancelling Headphone">
+                    </div>
+                    <div class="product-info">
+                        <h5 class="categories">Headphones, Audio, Sound</h5>
+                        <h4 class="title">Noise Cancelling Headphone</h4>
+                        <h3 class="price">
+                            <span>US$ 18.49</span>
+                        </h3>
+                        <button>Add to bag</button>
                     </div>
                 </div>
 
                 <div class="product">
-                    <div class="produtoimg">
-                        <img src="imagens/Headphone.jpg" alt="">
+                    <div class="product-picture">
+                        <img src="imagens/Camera.jpg" alt="product: Canon Digital SLR EOS Rebel T6">
                     </div>
-                    <div class="produtoinfo">
-                        <h5 class="categoria"> Headphones, audio</h5>
-                        <h4 class="titulo">Fone de ouvido </h4>
-                        <h3 class="preco">R$ 100,00</h3>
-                        <button> Add ao carrinho</button>
+                    <div class="product-info">
+                        <h5 class="categories">Cameras, Kits, Photo &amp; Video</h5>
+                        <h4 class="title">Canon Digital SLR EOS Rebel T6</h4>
+                        <h3 class="price">
+                            <span class="discounted-price">US$ 396.89</span>
+                            <span class="original-price">US$ 429.99</span>
+                        </h3>
+                        <button>Add to bag</button>
                     </div>
                 </div>
 
-                <div class="product">
-                    <div class="produtoimg">
-                        <img src="imagens/Camera.jpg" alt="">
-                    </div>
-                    <div class="produtoinfo">
-                        <h5 class="categoria"> Camera fotos e videos</h5>
-                        <h4 class="titulo"> Canon Digital</h4>
-                        <h3 class="preco">R$ 1.500</h3>
-                        <button> Add ao carrinho</button>
-                    </div>
-                </div>
-                
-                
             </div>
-
-
         </div>
     </section>
-    
-    <section class="newsletter">
-        <h3>Inscrição</h3>
-        <p>Increva-se e não perca nenhuma oferta</p>
-        <form >
-            <input type="email" name="email" id="" placeholder="Seu email">
-            <button>Inscrever</button>
+
+    <section class="newsletter" id="newsletter-section">
+        <h3>Newsletter Signup</h3>
+        <p>Subscribe now and don't miss a single deal!</p>
+        <form>
+            <input type="email" name="email" placeholder="Your email...">
+            <button type="submit">Subscribe</button>
         </form>
-       
     </section>
 
     <footer>
-        <div class="botton">
+        <div class="bottom-nav">
             <div class="container">
                 <ul>
-                    <li class="list-title">Categorias</li>
-                    <li><a href="#">Relogios</a></li>
+                    <li class="list-title">Categories</li>
+                    <li><a href="#">Watches</a></li>
                     <li><a href="#">Cameras</a></li>
-                    <li><a href="#">Celular</a></li>
+                    <li><a href="#">Phones</a></li>
                     <li><a href="#">Tablets</a></li>
-                    <li><a href="#">Computadores</a></li>
-                    <li><a href="#">Equimamentos</a></li>
+                    <li><a href="#">Computers</a></li>
                 </ul>
 
                 <ul>
-                    <li class="list-title">Redes sociais</li>
+                    <li class="list-title">About Us</li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Stores</a></li>
+                </ul>
+
+                <ul>
+                    <li class="list-title">Social Media</li>
                     <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linkedin</a></li>
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Youtube</a></li>
-                    <li><a href="#">Linkdin</a></li>
-                    <li><a href="#">WhatsApp</a></li>
                 </ul>
 
                 <ul>
-                    <li class="list-title">Serviçoes</li>
+                    <li class="list-title">Customer Service</li>
                     <li><a href="#">Live Chat</a></li>
-                    <li><a href="#">Reunioes</a></li>
-                    <li><a href="#">Entregas</a></li>
-                    <li><a href="#">Financeiro</a></li>
-                    <li><a href="#">Devoluções</a></li>
-                    
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Delivery &amp; Returns</a></li>
+                    <li><a href="#">Finance</a></li>
                 </ul>
 
-                <ul>
-                    <li class="list-title">Categorias</li>
-                    <li><a href="#">Relogios</a></li>
-                    <li><a href="#">Cameras</a></li>
-                    <li><a href="#">Celular</a></li>
-                    <li><a href="#">Tablets</a></li>
-                    <li><a href="#">Computadores</a></li>
-                    <li><a href="#">Equimamentos</a></li>
-                </ul>
             </div>
         </div>
         <div class="copyright-text">
-            @todos od direitos reservados  2025
+            2020 © All Rights Reserved
         </div>
-
     </footer>
 
+
+
 </body>
+
 </html>

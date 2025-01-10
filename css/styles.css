@@ -392,13 +392,163 @@ footer .copyright-text{
 ********************CSS Midia Queries******************************
 ****************************************************************/
 /* ***************** Designer DeskTops *************************  */
+@media screen and (max-width: 1140px) {
 
+    .container {
+        width: 1180px;
+    }
+
+    body {
+        padding-top: 70px;
+        background-color: #67f11d;
+    }
+
+    header {
+        height: 70px;
+    }
+
+    .hero-content h1 {
+        font-size: 44px;
+        letter-spacing: 1.1px;
+        line-height: 50px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-content p {
+        font-size: 18px;
+        letter-spacing: 0.45px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+    
+    .hero-content button {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+        
+    }
+
+    section.best-sellers {
+        padding-top: 70px;
+    }
+    
+    section.best-sellers h2 {
+        line-height: 38px;
+        margin: 0 0 16px 0;
+    }
+
+    section.best-sellers .producs-slide {
+        margin-top: 70px;
+    }
+    
+    section.best-sellers .producs-slide .product .produtoinfo .categoria {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 30px;
+    
+    }
+    
+    section.best-sellers .producs-slide .product .produtoinfo .titilo {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 26px;
+        
+    }
+
+    section.best-sellers .producs-slide .product .produtoinfo .preco {
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-bottom: 12px;
+    }
+
+    section.best-sellers .producs-slide .product .produtoinfo button {
+        height: 40px;
+        width: 180px;
+        letter-spacing: 0.35px;
+        line-height: 21px;
+    }
+   
+    section.newsletter {
+        width: 881px;
+        max-width: 100%;
+        padding: 50px 0;
+        margin: 70px auto;
+    }
+    
+    section.newsletter h3 {
+        font-size: 22px;
+        letter-spacing: 0.55px;
+        line-height: 42px;
+    }
+    
+    section.newsletter p {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    
+    section.newsletter form input {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+    
+    section.newsletter form button {
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 18px;
+    }
+   
+    footer .botton {
+        padding: 50px 0;
+    }
+    
+    footer .botton .container {
+        max-width: 90%;
+        margin-left: 0;
+    }
+    
+    footer .botton ul li a {
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 22px;
+    }
+    
+    footer .botton ul li.list-title {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+    
+    footer .copyright-text {
+        height: 50px;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        line-height: 22px;
+        text-align: center;
+        
+    }
+}
 
 /* ***************** Designer tablets *************************  */
+@media screen and (max-width: 960px) {
+    .container {
+        max-width: 92%;
+    }
 
+    body {
+        
+        background-color: yellow;
+    }
+}
 
 /* ***************** Designer Celulars *************************  */
-
-
-
-
+@media screen and (max-width: 576px) {
+    body {
+        
+        background-color: blue;
+    }
+}
